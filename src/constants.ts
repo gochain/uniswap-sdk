@@ -23,9 +23,10 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+export const FACTORY_ADDRESS = '0xe93c2cD333902d8dd65bF9420B68fC7B1be94bB3'
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+// only used in tests? https://github.com/Uniswap/uniswap-sdk/commit/5826a6d7081ecf4fd1af0d63d3f446500c1a1014#diff-92bb9f695f534009aa4c5d4db0e53a79R8
+export const INIT_CODE_HASH = '0x98fc91d95439cf779f977ab7705b11ed50acafc792b28482bf7bd5c2743ba711' // this must match the same thing in the router, see: https://github.com/goswap/uniswap-sdk/issues/1
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
