@@ -1,14 +1,14 @@
 {
-  "name": "@uniswap/sdk",
+  "name": "@goswap/sdk",
   "license": "MIT",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "🛠 An SDK for building applications on top of Uniswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
+  "repository": "https://github.com/goswap/uniswap-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
@@ -48,5 +48,8 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
